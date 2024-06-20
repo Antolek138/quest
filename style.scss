@@ -1,0 +1,119 @@
+@use 'colors' as c;
+
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	scroll-behavior: smooth;
+	font-size: 62.5%;
+}
+
+body,
+button {
+	font-family: 'Open Sans', sans-serif;
+}
+
+body {
+	font-size: 1.8rem;
+	color: c.$fontColor;
+	background-color: c.$backgroundColor;
+}
+
+.colorOne {
+	color: c.$colorOne;
+}
+
+.colorTwo {
+	color: c.$colorTwo;
+}
+
+.nav {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 80px;
+
+	&__text {
+		font-size: 3.4rem;
+	}
+}
+
+.main {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	gap: 5em;
+	padding: 2em;
+	height: calc(100vh - 80px);
+
+	&__title {
+		margin-bottom: 0.5em;
+		font-size: 2.6rem;
+		font-weight: bold;
+	}
+
+	&__btns {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		width: 100%;
+	}
+
+	&__btn {
+		width: 50px;
+		height: 50px;
+		font-weight: bold;
+		font-size: 2.8rem;
+		background-color: c.$btnColor;
+		border: none;
+		border-radius: 5px;
+	}
+}
+
+.finger {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding-bottom: 2em;
+	min-height: 100vh;
+
+	h1 {
+		margin-top: 2em;
+		margin-bottom: 1.2em;
+		font-size: 3.4rem;
+		color: c.$colorOne;
+	}
+
+	&__top {
+		padding: 2em;
+	}
+
+	&__title {
+		margin-bottom: 0.5em;
+		font-size: 2.6rem;
+		font-weight: bold;
+		color: c.$colorTwo;
+	}
+
+	&__btns {
+		padding: 2em 0;
+	}
+
+	&__btn {
+		padding: 1em 2em;
+		font-weight: bold;
+		font-size: 2rem;
+		color: #71a9f7;
+		width: 260px;
+		background-color: c.$btnColor;
+		border: none;
+		border-radius: 5px;
+	}
+}

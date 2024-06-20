@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pytanie czy wyzwanie</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <nav class="nav">
+        <h1 class="nav__text"><span class="colorOne">P</span> & <span class="colorTwo">W</span></h1>
+    </nav>
+
+    <section class="main">
+        <div class="main__top">
+            <p class="main__title colorOne">Pytanie:</p>
+            <p class="main__text main__text--answer"></p>
+        </div>
+        <div class="main__bottom">
+            <p class="main__title colorTwo">Wyzwanie:</p>
+            <p class="main__text main__text--challenge"></p>
+        </div>
+        <div class="main__btns">
+            <button class="main__btn main__answer colorOne">P</button>
+            <button class="main__btn main__challenge colorTwo">W</button>
+        </div>
+    </section>
+
+    <section class="finger">
+        <h1>Zręczne paluszki</h1>
+        <div class="finger__top">
+            <p class="finger__title">Opuść palec jeśli:</p>
+            <p class="finger__text"></p>
+        </div>
+        <div class="finger__btns">
+            <button class="finger__btn">Losuj pytanie!</button>
+        </div>
+    </section>
+
+    <script defer src="./script.js"></script>
+</body>
+
+</html>

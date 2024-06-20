@@ -1,0 +1,108 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+
+body,
+button {
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  font-size: 1.8rem;
+  color: #fffafb;
+  background-color: #131515;
+}
+
+.colorOne {
+  color: #f61067;
+}
+
+.colorTwo {
+  color: #26c485;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+}
+.nav__text {
+  font-size: 3.4rem;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5em;
+  padding: 2em;
+  height: calc(100vh - 80px);
+}
+.main__title {
+  margin-bottom: 0.5em;
+  font-size: 2.6rem;
+  font-weight: bold;
+}
+.main__btns {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.main__btn {
+  width: 50px;
+  height: 50px;
+  font-weight: bold;
+  font-size: 2.8rem;
+  background-color: rgba(39, 41, 41, 0.5);
+  border: none;
+  border-radius: 5px;
+}
+
+.finger {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 2em;
+  min-height: 100vh;
+}
+.finger h1 {
+  margin-top: 2em;
+  margin-bottom: 1.2em;
+  font-size: 3.4rem;
+  color: #f61067;
+}
+.finger__top {
+  padding: 2em;
+}
+.finger__title {
+  margin-bottom: 0.5em;
+  font-size: 2.6rem;
+  font-weight: bold;
+  color: #26c485;
+}
+.finger__btns {
+  padding: 2em 0;
+}
+.finger__btn {
+  padding: 1em 2em;
+  font-weight: bold;
+  font-size: 2rem;
+  color: #71a9f7;
+  width: 260px;
+  background-color: rgba(39, 41, 41, 0.5);
+  border: none;
+  border-radius: 5px;
+}/*# sourceMappingURL=style.css.map */
